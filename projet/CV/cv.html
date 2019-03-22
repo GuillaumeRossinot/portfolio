@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="pages/CV/style.css" />
+    <meta charset="utf-8">
+    <title>mon CV</title>
+	<script>
+		function toggleDisplay(id) {
+			var div = document.getElementById(id);
+			if(div.style.display == "none")
+			{
+				document.getElementById('h3_arrow_'+id).src="pages/CV/img/fleche_top.jpg";
+				div.style.display = "block"
+			}
+			else
+			{
+				document.getElementById('h3_arrow_'+id).src="pages/CV/img/fleche_bottom.jpg";
+				div.style.display = "none"
+			}
+			
+		}
+	</script>
+</head>
+
+<body>
+	<div style="clear:both;" ></div>
+	<div id="header">
+		<div id="header_gauche">
+			<img id="photo" src="pages/CV/img/photo.jpg">
+			<p id="name">ROSSINOT Guillaume</p>
+			<a href="mailto:g.rossinot@gmail.com">g.rossinot@gmail.com</a>
+		</div>
+		
+		<div id="header_droit">
+			<h1><a href="https://fr.wikipedia.org/wiki/Int%C3%A9grateur_web">Analyste/integrateur WEB</a></h1>
+		</div>
+	</div>
+	<div style="clear:both;" ></div>
+	<h3 onClick="toggleDisplay('formations');"><img id="h3_arrow_formations" width=15 height=15 src="pages/CV/img/fleche_bottom.jpg"/>&nbsp;&nbsp;formations</h3>
+	<div id="formations" class="corps" style="display:none;">
+		<section class="section intro">
+		  <div class="container">
+			<h4>Horizontal Timeline &rarr;</h4>
+		  </div>
+		</section>
+
+		<section class="timeline">
+		  <ol>
+			<li>
+			  <div>
+                  <time>2012</time><a href="https://fr.wikipedia.org/wiki/Baccalaur%C3%A9at_sciences_et_technologies_du_management_et_de_la_gestion">BAC STG Option: Comptabilité et finance des entreprises</a> | <a href="http://www.lyc-polyvalent-monod-enghien.ac-versailles.fr/">Lycée Gustave Monod </a>
+			  </div>
+			</li>
+			<li>
+			  <div>
+				<time>2017</time>Préparation du <a href="https://diplomeo.com/trouver-bts-sio">BTS Services Informatiques aux Organisations Option: Solution logiciel et application metier</a> | <a href="https://www.iticparis.com/">ITIC Paris</a>
+			  </div>
+			</li>
+			<li></li>
+		  </ol>
+		  
+		  <div class="arrows">
+			<button class="arrow arrow__prev disabled" disabled>
+			  <img src="pages/CV/img/arrow_prev.svg" alt="prev timeline arrow">
+			</button>
+			<button class="arrow arrow__next">
+			  <img src="pages/CV/img/arrow_next.svg" alt="next timeline arrow">
+			</button>
+		  </div>
+		</section>
+	</div>
+	<h3 onClick="toggleDisplay('experiences');"><img id="h3_arrow_experiences" width=15 height=15 src="pages/CV/img/fleche_bottom.jpg"/>&nbsp;&nbsp;expériences</h3>
+	<div id="experiences" class="corps" style="display:none;">
+	<section class="section intro">
+		  <div class="container">
+			<h4>Horizontal Timeline &rarr;</h4>
+		  </div>
+		</section>
+
+		<section class="timeline">
+		  <ol>
+			<li>
+			  <div>
+				<time>03/2008</time>Stagiaire <br />Beauty Tech | Louvres (95) <br /> Préparation de commande / Magasinage / Saisie informatique
+			  </div>
+			</li>
+			<li>
+			  <div>
+                  <time>12/2012</time>Employé vente artisanale <br /> <a href="http://www.e-leclerc.com/">Centre E.Leclerc</a> | Moisselles (95) <br /> Préparation de commande / Magasinage / Vente / Manutention
+			  </div>
+			</li>
+			<li>
+			  <div>
+				<time>01/2013</time>Employé bénévole free worker <br /> LOGOPS SARL | Montiers (60) <br /> Développement / Administration de sites internet professionnels
+			  </div>
+			</li>
+			<li></li>
+		  </ol>
+		  
+		  <div class="arrows">
+			<button class="arrow arrow__prev disabled" disabled>
+			  <img src="pages/CV/img/arrow_prev.svg" alt="prev timeline arrow">
+			</button>
+			<button class="arrow arrow__next">
+			  <img src="pages/CV/img/arrow_next.svg" alt="next timeline arrow">
+			</button>
+		  </div>
+		</section>
+		
+	</div>
+	<h3 onClick="toggleDisplay('divers');"><img id="h3_arrow_divers" width=15 height=15 src="pages/CV/img/fleche_bottom.jpg"/>&nbsp;&nbsp;Informations complémentaires</h3>
+	<div id="divers" class="corps"  style="display:none;">
+		<div id="perso">
+			<h4>Informations personnelles</h4>
+			<img src="pages/CV/img/celendar.png" width=15 height=15 />&nbsp;&nbsp;20/10/1992 - 25 ans<br />
+			<img src="pages/CV/img/adresse.png" width=15 height=15 />&nbsp;&nbsp;Ezanville, 95460<br />
+			<img src="pages/CV/img/phone.png" width=10 height=15 />&nbsp;&nbsp;  06 46 70 66 47<br />
+			<h4>Langues</h4>
+				<img style="float: left;margin-right: 20px;" src="pages/CV/img/gb.ico" width=15 height=15 /><div  style="float: left;" class="progress-bar red"></div><br />
+				<div style="clear:both;"></div>
+				<img style="float: left;margin-right: 20px;" src="pages/CV/img/es.png" width=15 height=15 /><div  style="float: left;" class="progress-bar yellow"></div><br />
+		</div>
+        		<div id="interets">
+			<h4>Centres d'intérêts</h4>
+				<img src="pages/CV/img/avion.png" width=15 height=15 />&nbsp;&nbsp;Séjour linguistique en Angleterre<br />
+                    <img src="pages/CV/img/sport.png" width=15 height=15 />&nbsp;&nbsp;<a href="https://fr.wikipedia.org/wiki/Baseball">Baseball</a>, <a href="https://fr.wikipedia.org/wiki/Football">Football</a>, <a href="https://fr.wikipedia.org/wiki/Basket-ball">Basket</a><br />
+                    <img src="pages/CV/img/musique.png" width=15 height=15 />&nbsp;&nbsp;Pratique de la <a href="https://fr.wikipedia.org/wiki/Guitare_basse">basse</a>, de la <a href="https://fr.wikipedia.org/wiki/Guitare">guitare</a> et de la <a href="https://fr.wikipedia.org/wiki/Batterie_(instrument)">batterie</a><br />
+                    <img src="pages/CV/img/jv.png" width=15 height=15 />&nbsp;&nbsp;Jeux vidéo : <a href="https://fr.wikipedia.org/wiki/Jeu_de_strat%C3%A9gie">Stratégie</a>, <a href="https://fr.wikipedia.org/wiki/Jeu_de_r%C3%B4le_(activit%C3%A9_ludique)">RPG</a>, <a href="https://fr.wikipedia.org/wiki/Jeu_vid%C3%A9o_de_course">Course</a>, <a href="https://fr.wikipedia.org/wiki/Jeu_vid%C3%A9o_de_r%C3%A9flexion">Énigme</a>, <a href="https://fr.wikipedia.org/wiki/Jeu_de_simulation">Simulation</a><br />
+				<img src="pages/CV/img/nouv_tech.png" width=15 height=15 />&nbsp;&nbsp;Nouvelles technologies<br />
+		</div>
+    </div>
+	<div style="clear:both;" ></div>
+	<h3 onClick="toggleDisplay('competence');"><img id="h3_arrow_competence" width=15 height=15 src="pages/CV/img/fleche_bottom.jpg"/>&nbsp;&nbsp;compétences</h3>
+<div id="competence" class="corps" style="display:none;">
+<div id="atouts">
+			<h4>Atouts</h4>
+			<div style="float:left;margin-right: 20px;" ><img src="pages/CV/img/atouts.png" width=60 height=60 /></div>
+			<div style="float:left;" >
+                <a href="https://fr.wikipedia.org/wiki/Autonome">Autonome</a><br />
+                <a href="https://fr.wiktionary.org/wiki/organis%C3%A9">Organisé</a><br />
+                <a href="https://fr.wiktionary.org/wiki/s%C3%A9rieux">Sérieux</a><br />
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+		<br />
+	<div style="clear:both;" ></div>
+		<div id="bars-container">
+	<div style="clear:both;" >
+        <div class="competencetag"><a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language">HTML</a>/<a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade">CSS</a></div><div class="progress-bar blue"></div><br/>
+        <div class="competencetag"><a href="https://fr.wikipedia.org/wiki/PHP">PHP</a></div><div class="progress-bar orange"></div><br/>
+        <div class="competencetag"><a href="https://fr.wikipedia.org/wiki/Structured_Query_Language">SQL</a></div><div class="progress-bar green"></div><br/>
+        <div class="competencetag"><a href="https://fr.wikipedia.org/wiki/Microsoft_Office">Pack Office</a></div><div class="progress-bar pink"></div><br/>
+			<div class="clear"></div>
+		</div>
+</div>
+</body>
+
+</html>

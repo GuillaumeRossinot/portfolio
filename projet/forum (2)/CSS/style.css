@@ -1,0 +1,223 @@
+body {
+ background-image: url(../img/background.png);
+ background-repeat: no-repeat ; /*pas de répition de l'image*/
+ background-attachment: fixed ;
+}
+
+#nav-header{
+    margin-left: 120px;
+	margin-top: 0px;
+	float: left;
+	text-align: right;
+	width:75%;
+    border: 1px solid black;
+    background-color: grey;
+}
+
+#nav-header nav ul {
+	padding-right: 5%;
+	float: left;
+	text-align: right;
+	list-style:none;
+}
+
+#nav-header nav ul li{
+	margin-right:10px;
+    display:inline;
+    border: 1px solid black;
+}
+
+#img-header{
+	margin-top: 15px;
+	margin-left: 1px;
+	float: left;
+	width: 150px;
+    border: 1px solid black;
+}
+
+#banniere{
+	margin-top: 5px;
+	margin-left: 120px;
+	float: left;
+	width: 75%;
+    border: 1px solid black;
+}
+
+h2{
+	text-align:center;}
+
+#forum-manga{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+}
+
+#forum-manga h2{
+    border: 1px solid black;
+    background-color: grey;
+}
+
+#forum-manga li{
+    list-style:none;
+    border: 1px solid black;
+    background-color: grey;
+}
+
+#forum-jv{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+}
+
+#forum-jv h2{
+    border: 1px solid black;
+    background-color: grey;
+}
+
+#forum-jv li{
+    list-style:none;
+    border: 1px solid black;
+    background-color: grey;
+}
+#forum-general{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+}
+
+#forum-general h2{
+    border: 1px solid black;
+    background-color: royalblue;
+}
+
+#forum-general li{
+    list-style:none;
+    border: 1px solid black;
+    background-color: royalblue;
+}
+
+
+
+#liste-membre{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+}
+
+#liste-membre h1{
+    border: 1px solid black;
+}
+
+#liste-membre li{
+    list-style:none;
+    border: 1px solid black;
+}
+
+#login{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+}
+
+#register{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+}
+
+#post{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+}
+
+#post h3{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+    background-color: royalblue;
+}
+
+#post h4{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+    background-color: royalblue;
+}
+
+#post p{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+    background-color: royalblue;
+}
+
+#reponse{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+}
+
+#reponse h4{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+    background-color: royalblue;
+}
+
+#reponse p{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+    background-color: royalblue;
+}
+
+#enligne{
+    text-align:left;
+    float:left;
+    padding-right:5%;
+    clear: both;
+	width: 100%;
+    border: 1px solid black;
+    background-color: royalblue;
+    
+}

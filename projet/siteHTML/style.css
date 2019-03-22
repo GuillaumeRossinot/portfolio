@@ -1,0 +1,139 @@
+
+html{background-image:url(img/background.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+
+}
+
+body{
+	width: 1000px;
+    display: block;
+    margin: auto;
+    color: black;
+}
+#header{
+	clear:both;
+	width: 100%;
+	height: 150px;
+}
+#img-header{
+	margin-top: 20px;
+	margin-left: 5px;
+	float: left;
+	width: 15%;
+	min-width: 150px;
+}
+
+#nav-header{
+	margin-top: 15px;
+	float: left;
+	text-align: right;
+	width:75%;
+}
+
+#nav-header nav ul {
+	padding-right: 5%;
+	float: left;
+	text-align: right;
+	list-style:none;}
+
+#nav-header nav ul li{
+	margin-right:10px;
+		display:inline}
+
+	
+h1{
+	text-align:center;}
+
+/*img{margin-left:15px;}*/
+
+#central{
+	clear: both;
+	width: 100%;
+}
+#central-top{
+	clear:both;
+	width:100%;
+}
+#central-bot{
+	clear:both;
+	width:100%;
+}
+#central_top_gauche{
+	margin: 15px;
+	float: left;
+	width: 75%;
+}
+#central_top_droit{
+	margin-top: 50px;
+	float: left;
+	width:15%;
+}
+#central_bot_gauche{
+	margin: 15px;
+	margin-top: 150px;
+	width: 30%;
+	float: left;
+	text-align:auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 25px;
+	font-weight:bold;
+	text-align: center;
+	transition: 0.3s;
+}
+#central_bot_droit{
+	margin-left: 15px;
+	width: 60%;
+	float: left;
+}
+
+#central_bot_droit iframe{
+	margin: 10px;
+	width: 530px;
+	height: 300px;
+}  
+
+/*
+#tuto{bottom:30%;
+	left:25%;
+	position: absolute;
+	text-align:auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 300px;
+	height: 25px;
+	line-height: 25px;
+	font-weight:bold;
+	text-align: center;
+	transition: 0.3s;
+	color:white;
+}
+	
+#vindex{display:flex;
+	  position: absolute;
+	  bottom:20%;
+	  left: 40%;
+	  width: 400px;
+	  margin-left: -200px;
+}
+
+#pdf{bottom:40%;
+	left:25%;
+	position: absolute;
+	text-align:auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 300px;
+	height: 25px;
+	line-height: 25px;
+	font-weight:bold;
+	text-align: center;
+	transition: 0.3s;
+	color:white;
+}*/
+a:visited{
+	color: blue;
+}
