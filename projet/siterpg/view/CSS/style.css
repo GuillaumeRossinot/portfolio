@@ -1,0 +1,185 @@
+body {
+	background-color: grey;
+	color: #000;
+	font-family: "Century Gothic", helvetica, arial, sans-serif;
+	line-height: 1.5;
+}
+
+/* header */
+
+
+header {
+	font-size: 1.2em;
+	border:2px solid black;
+	background-image: url(../images/banniere.jpg);
+	height: 330px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* #menu-accueil, #menu-accueil ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#menu-accueil {
+/* on centre le menu dans la page 
+    text-align: center;
+}
+#menu-accueil li {
+/* on place les liens du menu horizontalement 
+    display: inline-block;
+    border:2px solid white;
+    text-align: center;
+}
+#menu-accueil ul li {
+/* on enlève ce comportement pour les liens du sous menu 
+    display: inherit;
+}
+#menu-accueil a {
+    text-decoration: none;
+    display: block;
+		color:white;
+}
+#menu-accueil ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche 
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+#menu-accueil li:hover ul {
+/* Au survol des li du menu on replace les sous menus 
+    left: auto;
+} */
+
+footer {
+	/* border:2px solid black; */
+	background-color: black;
+	width: auto;
+	height: 20%;
+	text-decoration: none;
+	text-decoration-color: none;
+	text-decoration-line: none;
+	font-size: x-small;
+
+}
+
+footer ul{
+	text-align: left;
+	font-size: x-small;
+}
+
+footer ul li{
+	list-style-type: none;
+	color: white;
+
+}
+
+footer ul li:hover{
+	color: 	#F8F8FF;
+	transition: 1s;
+}
+
+footer #copyrigth {
+  color: white;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+#menu-vert-gauche {
+  width: 200px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu-vert-gauche li {
+  background: #c00 ;
+  color: #fff ;
+  border: 1px solid #600 ;
+  margin-bottom: 1px ;
+}
+
+#menu-vert-gauche li a {
+  display: block ;
+  background: #c00 ;
+  color: #fff ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  padding: 4px 0 ;
+}
+
+#menu-vert-gauche li a:hover, #menu-vert-gauche li a:focus, #menu-vert-gauche li a:active {
+  background: #900 ;
+  text-decoration: underline ;
+}
+
+
+* { margin:0; padding:0; }
+#menu-accueil ul {
+  position:relative;
+  width:100%; 
+  list-style:none outside none;
+  display:table;
+}
+#menu-accueil ul > li {
+  display:table-cell;
+}
+#menu-accueil > ul li ul {
+  display:none; /* sous-menu masqués */
+  position:absolute;
+  top:100%;
+  left:0;
+}
+#menu-accueil li:hover > ul {
+  display:table; /* sous-menu affiché */
+}
+
+/* ----------------------- */
+/* DECORATION */
+#menu-accueil ul { /* niveau 1 */
+  background:#aaa;
+}
+#menu-accueil ul ul { /* niveau 2 */
+  background:#bbb;
+}
+#menu-accueil ul ul ul { /* niveau 3 */
+  background:#ccc;
+}
+#menu-accueil ul li a {
+  display:block;
+  padding:10px 15px;
+  color:#111;
+  text-decoration:none;
+}
+#menu-accueil ul li:hover > a {
+  background:#666;
+  color:#fff;
+}
+#menu-accueil ul li a {
+  border-right:1px solid #fff;
+}
+#menu-accueil > ul > li:hover:after,
+#menu-accueil > ul > li > ul > li:hover:after {
+  position:absolute;
+  display:block; content:''; 
+  /*triangle */
+  width: 0; height: 0;
+  border-style: solid; border-width: 8px 6px 0 6px;
+  border-color: #666 transparent transparent transparent;
+}
+/* ANIMATION */
+#menu-accueil ul li > a {
+-webkit-transition:all 1s;
+-moz-transition:all 1s;
+-ms-transition:all 1s;
+-o-transition:all 1s;
+transition:all 1s;
+}
+#menu-accueil ul li:hover > a {
+  padding:10px 25px;
+}

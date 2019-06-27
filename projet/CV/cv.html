@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link type="text/css" rel="stylesheet" href="pages/CV/style.css" />
+    <link type="text/css" rel="stylesheet" href="./style.css" />
     <meta charset="utf-8">
     <title>mon CV</title>
 	<script>
@@ -10,12 +10,12 @@
 			var div = document.getElementById(id);
 			if(div.style.display == "none")
 			{
-				document.getElementById('h3_arrow_'+id).src="pages/CV/img/fleche_top.jpg";
+				document.getElementById('h3_arrow_'+id).src="./img/fleche_top.jpg";
 				div.style.display = "block"
 			}
 			else
 			{
-				document.getElementById('h3_arrow_'+id).src="pages/CV/img/fleche_bottom.jpg";
+				document.getElementById('h3_arrow_'+id).src="./img/fleche_bottom.jpg";
 				div.style.display = "none"
 			}
 			
@@ -27,7 +27,7 @@
 	<div style="clear:both;" ></div>
 	<div id="header">
 		<div id="header_gauche">
-			<img id="photo" src="pages/CV/img/photo.jpg">
+			<img id="photo" src="./img/photo.jpg">
 			<p id="name">ROSSINOT Guillaume</p>
 			<a href="mailto:g.rossinot@gmail.com">g.rossinot@gmail.com</a>
 		</div>
@@ -37,7 +37,7 @@
 		</div>
 	</div>
 	<div style="clear:both;" ></div>
-	<h3 onClick="toggleDisplay('formations');"><img id="h3_arrow_formations" width=15 height=15 src="pages/CV/img/fleche_bottom.jpg"/>&nbsp;&nbsp;formations</h3>
+	<h3 onClick="toggleDisplay('formations');"><img id="h3_arrow_formations" width=15 height=15 src="./img/fleche_bottom.jpg"/>&nbsp;&nbsp;formations</h3>
 	<div id="formations" class="corps" style="display:none;">
 		<section class="section intro">
 		  <div class="container">
@@ -62,15 +62,15 @@
 		  
 		  <div class="arrows">
 			<button class="arrow arrow__prev disabled" disabled>
-			  <img src="pages/CV/img/arrow_prev.svg" alt="prev timeline arrow">
+			  <img src="./img/arrow_prev.svg" alt="prev timeline arrow">
 			</button>
 			<button class="arrow arrow__next">
-			  <img src="pages/CV/img/arrow_next.svg" alt="next timeline arrow">
+			  <img src="./img/arrow_next.svg" alt="next timeline arrow">
 			</button>
 		  </div>
 		</section>
 	</div>
-	<h3 onClick="toggleDisplay('experiences');"><img id="h3_arrow_experiences" width=15 height=15 src="pages/CV/img/fleche_bottom.jpg"/>&nbsp;&nbsp;expériences</h3>
+	<h3 onClick="toggleDisplay('experiences');"><img id="h3_arrow_experiences" width=15 height=15 src="./img/fleche_bottom.jpg"/>&nbsp;&nbsp;expériences</h3>
 	<div id="experiences" class="corps" style="display:none;">
 	<section class="section intro">
 		  <div class="container">
@@ -100,42 +100,42 @@
 		  
 		  <div class="arrows">
 			<button class="arrow arrow__prev disabled" disabled>
-			  <img src="pages/CV/img/arrow_prev.svg" alt="prev timeline arrow">
+			  <img src="./img/arrow_prev.svg" alt="prev timeline arrow">
 			</button>
 			<button class="arrow arrow__next">
-			  <img src="pages/CV/img/arrow_next.svg" alt="next timeline arrow">
+			  <img src="./img/arrow_next.svg" alt="next timeline arrow">
 			</button>
 		  </div>
 		</section>
 		
 	</div>
-	<h3 onClick="toggleDisplay('divers');"><img id="h3_arrow_divers" width=15 height=15 src="pages/CV/img/fleche_bottom.jpg"/>&nbsp;&nbsp;Informations complémentaires</h3>
+	<h3 onClick="toggleDisplay('divers');"><img id="h3_arrow_divers" width=15 height=15 src="./img/fleche_bottom.jpg"/>&nbsp;&nbsp;Informations complémentaires</h3>
 	<div id="divers" class="corps"  style="display:none;">
 		<div id="perso">
 			<h4>Informations personnelles</h4>
-			<img src="pages/CV/img/celendar.png" width=15 height=15 />&nbsp;&nbsp;20/10/1992 - 25 ans<br />
-			<img src="pages/CV/img/adresse.png" width=15 height=15 />&nbsp;&nbsp;Ezanville, 95460<br />
-			<img src="pages/CV/img/phone.png" width=10 height=15 />&nbsp;&nbsp;  06 46 70 66 47<br />
+			<img src="./img/celendar.png" width=15 height=15 />&nbsp;&nbsp;20/10/1992 - 25 ans<br />
+			<img src="./img/adresse.png" width=15 height=15 />&nbsp;&nbsp;Ezanville, 95460<br />
+			<img src="./img/phone.png" width=10 height=15 />&nbsp;&nbsp;  06 46 70 66 47<br />
 			<h4>Langues</h4>
-				<img style="float: left;margin-right: 20px;" src="pages/CV/img/gb.ico" width=15 height=15 /><div  style="float: left;" class="progress-bar red"></div><br />
+				<img style="float: left;margin-right: 20px;" src="./img/gb.ico" width=15 height=15 /><div  style="float: left;" class="progress-bar red"></div><br />
 				<div style="clear:both;"></div>
-				<img style="float: left;margin-right: 20px;" src="pages/CV/img/es.png" width=15 height=15 /><div  style="float: left;" class="progress-bar yellow"></div><br />
+				<img style="float: left;margin-right: 20px;" src="./img/es.png" width=15 height=15 /><div  style="float: left;" class="progress-bar yellow"></div><br />
 		</div>
         		<div id="interets">
 			<h4>Centres d'intérêts</h4>
-				<img src="pages/CV/img/avion.png" width=15 height=15 />&nbsp;&nbsp;Séjour linguistique en Angleterre<br />
-                    <img src="pages/CV/img/sport.png" width=15 height=15 />&nbsp;&nbsp;<a href="https://fr.wikipedia.org/wiki/Baseball">Baseball</a>, <a href="https://fr.wikipedia.org/wiki/Football">Football</a>, <a href="https://fr.wikipedia.org/wiki/Basket-ball">Basket</a><br />
-                    <img src="pages/CV/img/musique.png" width=15 height=15 />&nbsp;&nbsp;Pratique de la <a href="https://fr.wikipedia.org/wiki/Guitare_basse">basse</a>, de la <a href="https://fr.wikipedia.org/wiki/Guitare">guitare</a> et de la <a href="https://fr.wikipedia.org/wiki/Batterie_(instrument)">batterie</a><br />
-                    <img src="pages/CV/img/jv.png" width=15 height=15 />&nbsp;&nbsp;Jeux vidéo : <a href="https://fr.wikipedia.org/wiki/Jeu_de_strat%C3%A9gie">Stratégie</a>, <a href="https://fr.wikipedia.org/wiki/Jeu_de_r%C3%B4le_(activit%C3%A9_ludique)">RPG</a>, <a href="https://fr.wikipedia.org/wiki/Jeu_vid%C3%A9o_de_course">Course</a>, <a href="https://fr.wikipedia.org/wiki/Jeu_vid%C3%A9o_de_r%C3%A9flexion">Énigme</a>, <a href="https://fr.wikipedia.org/wiki/Jeu_de_simulation">Simulation</a><br />
-				<img src="pages/CV/img/nouv_tech.png" width=15 height=15 />&nbsp;&nbsp;Nouvelles technologies<br />
+				<img src="./img/avion.png" width=15 height=15 />&nbsp;&nbsp;Séjour linguistique en Angleterre<br />
+                    <img src="./img/sport.png" width=15 height=15 />&nbsp;&nbsp;<a href="https://fr.wikipedia.org/wiki/Baseball">Baseball</a>, <a href="https://fr.wikipedia.org/wiki/Football">Football</a>, <a href="https://fr.wikipedia.org/wiki/Basket-ball">Basket</a><br />
+                    <img src="./img/musique.png" width=15 height=15 />&nbsp;&nbsp;Pratique de la <a href="https://fr.wikipedia.org/wiki/Guitare_basse">basse</a>, de la <a href="https://fr.wikipedia.org/wiki/Guitare">guitare</a> et de la <a href="https://fr.wikipedia.org/wiki/Batterie_(instrument)">batterie</a><br />
+                    <img src="./img/jv.png" width=15 height=15 />&nbsp;&nbsp;Jeux vidéo : <a href="https://fr.wikipedia.org/wiki/Jeu_de_strat%C3%A9gie">Stratégie</a>, <a href="https://fr.wikipedia.org/wiki/Jeu_de_r%C3%B4le_(activit%C3%A9_ludique)">RPG</a>, <a href="https://fr.wikipedia.org/wiki/Jeu_vid%C3%A9o_de_course">Course</a>, <a href="https://fr.wikipedia.org/wiki/Jeu_vid%C3%A9o_de_r%C3%A9flexion">Énigme</a>, <a href="https://fr.wikipedia.org/wiki/Jeu_de_simulation">Simulation</a><br />
+				<img src="./img/nouv_tech.png" width=15 height=15 />&nbsp;&nbsp;Nouvelles technologies<br />
 		</div>
     </div>
 	<div style="clear:both;" ></div>
-	<h3 onClick="toggleDisplay('competence');"><img id="h3_arrow_competence" width=15 height=15 src="pages/CV/img/fleche_bottom.jpg"/>&nbsp;&nbsp;compétences</h3>
+	<h3 onClick="toggleDisplay('competence');"><img id="h3_arrow_competence" width=15 height=15 src="./img/fleche_bottom.jpg"/>&nbsp;&nbsp;compétences</h3>
 <div id="competence" class="corps" style="display:none;">
 <div id="atouts">
 			<h4>Atouts</h4>
-			<div style="float:left;margin-right: 20px;" ><img src="pages/CV/img/atouts.png" width=60 height=60 /></div>
+			<div style="float:left;margin-right: 20px;" ><img src="./img/atouts.png" width=60 height=60 /></div>
 			<div style="float:left;" >
                 <a href="https://fr.wikipedia.org/wiki/Autonome">Autonome</a><br />
                 <a href="https://fr.wiktionary.org/wiki/organis%C3%A9">Organisé</a><br />

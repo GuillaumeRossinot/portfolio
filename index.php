@@ -1,26 +1,23 @@
-<?php
-session_start ();
+<?php require("include/function.php");?>
 
-	if(!isset($_GET['p']))
+<?php 
+	
+	if(!isset ($_GET['p']))
 	{
-		$page = "accueil" ;
-		
+		$page = 'accueil';
 	}
 	else
 	{
-		if(!file_exists("views/".$_GET['p']."views.php")){
-
-		$page = "404";
-		}
+		if(!file_exists("pages/".$_GET['p'].".php"))
+			$page= "404";
 		else
-		{
 		$page = $_GET['p'];
-		}
 	}
-
-	ob_start();
-	include "./views/".$page."views.php" ;
-	$content = ob_get_contents();
+	
+	ob_start ();
+		include "pages/".$page.".php";
+		$content = ob_get_contents();
 	ob_end_clean();
+	
 	include "layout.php";
-?>
+	?>
